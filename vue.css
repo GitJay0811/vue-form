@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: DFKai-sb;
+}
+.userForm{
+    position: absolute;
+    top:10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 40%;
+    height: 80%;
+    background-color: aqua;
+}
+.userForm h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 48px;
+}
+form{
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+form label,div{
+    margin-top: 10px;
+}
+form div label:last-of-type{
+    margin-left: 10px;
+}
+form input[type="submit"]{  
+    margin-top: 20px;
+    height: 40px;
+    font-size: 24px;
+}
